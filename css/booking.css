@@ -1,0 +1,108 @@
+.category__content-tours {
+    position: relative;
+}
+.category__tours-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.category__tours-item {
+    margin-top: 10px;
+}
+.category__tours-link {
+    display: block;
+    text-decoration: none;
+}
+a {
+    color: #003056;
+}
+.category__tours-left {
+    width: 180px;
+    float: left;
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.category__tours-right {
+    float: left;
+    width: -webkit-calc(100% - 180px);
+    width: -moz-calc(100% - 180px);
+    width: calc(100% - 180px);
+}
+.category__tours-top_featured {
+    background: url(../images/category-right-featured.png) right center no-repeat;
+}
+.category__tours-top {
+    padding-right: 8px;
+    background: url(../images/category-right.png) right center no-repeat;
+    height: 100px;
+}
+.category__tours-inner_featured {
+    background: url(../images/percent.png) 99% -3px no-repeat #fff;
+    background-size: 30px;
+    border-top: 1px solid #00a1d9;
+    border-bottom: 1px solid #00a1d9;
+}
+.category__tours-inner {
+    padding: 5px 37px 5px 20px;
+    background: #fff;
+    border-top: 1px solid #04518c;
+    border-bottom: 1px solid #04518c;
+    height: 100px;
+    overflow: hidden;
+}
+.category__tours-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #04518c;
+    margin: 0;
+    overflow: hidden;
+}
+.category__tours-excerpt {
+    padding: 10px 0 0 10px;
+    color: #04518c;
+    opacity: .5;
+    font-size: 14px;
+    overflow: hidden;
+    max-height: 60px;
+}
+.category__tours-bottom {
+    margin-top: 1px;
+    font-size: 16px;
+    color: #fff;
+}
+.category__tours-cost_featured {
+    background-color: #66c7e8;
+}
+.category__tours-cost {
+    width: 70%;
+    float: left;
+    padding: 5.5px 0 5.5px 50px;
+    background-image: url(../images/paycard-white.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-color: #6897ba;
+    min-height: 29px;
+}
+.category__tours-more_featured {
+    background: #33b4e1;
+}
+.category__tours-more {
+    width: 30%;
+    float: right;
+    text-align: center;
+    font-weight: 700;
+    background: #3674a3;
+    padding: 5.5px 0;
+}
+.category__tours-date {
+    margin-left: 40px;
+    display: inline-block;
+}
+.category__tours-image {
+    vertical-align: top;
+}
+.category__tours-image_mobile {
+    display: none;
+}
